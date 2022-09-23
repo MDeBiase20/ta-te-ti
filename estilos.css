@@ -1,0 +1,137 @@
+body{
+    background-image: url(images/fondo-cuadricula.svg);
+}
+
+.table{
+    margin-left: 12cm;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 400px;
+    width: 400px;
+    background-image: url(images/table.svg);
+    background-size: 100% 100%; /*para que ocupe el 100% tanto de alto como de ancho*/
+    position: relative; /*Sirve para que la línea se pueda soperponer sobre la tabla*/
+}
+
+h1{
+    text-align: center;
+    color: cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.x{
+    background-image: url(images/x.svg);
+    background-size: 100% 100%; /*para que ocupe el 100% tanto de alto como de ancho*/
+}
+
+.o{
+    background-image: url(images/o.svg);
+    background-size: 100% 100%; /*para que ocupe el 100% tanto de alto como de ancho*/
+}
+
+.linea{
+    background-size: 100% 100%; /*para que ocupe el 100% tanto de alto como de ancho*/
+    height: 100%;
+    width: 100%;
+    position: absolute; /*para que la línea ganadora se superponga sobre la tabla*/
+}
+
+.linea-ganadora-1{
+    background-image: url(images/line-winner-1.svg);    
+}
+
+.linea-ganadora-2{
+    background-image: url(images/line-winner-2.svg);
+}
+
+.linea-ganadora-3{
+    background-image: url(images/line-winner-1.svg);
+    transform: rotate(180deg);
+}
+
+.linea-ganadora-4{
+    background-image: url(images/line-winner-1.svg);
+    transform: rotate(270deg);
+}
+
+.linea-ganadora-5{
+    background-image: url(images/line-winner-2.svg);
+    transform: rotate(90deg);
+}
+
+.linea-ganadora-6{
+    background-image: url(images/line-winner-1.svg);
+    transform: rotate(90deg);
+}
+
+.linea-ganadora-7{
+    background-image: url(images/line-winner-3.svg);
+}
+
+.linea-ganadora-8{
+    background-image: url(images/line-winner-3.svg);
+    transform: rotate(90deg);
+}
+
+.box{
+    /*border: 1px solid;*/
+}
+
+#boton{
+    margin-left: 10cm;
+}
+
+li{
+    margin-left: 5cm;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#formulario{
+    border-radius: 20px;
+    background-color: beige;
+    height: 260px;
+}
+
+#boton1{
+    margin-top: -15px;
+    margin-left: 15cm;
+    height: 50px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: green;
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#boton1:hover{    
+        border: 2px dotted rgba(247, 243, 242, 1);
+        border-radius: 8px;     
+}
+
+#boton{
+    height: 60px;
+    width: 150px;
+    border-radius: 6px;
+    background-color: green;
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+#boton:hover{    
+    border: 2px dotted rgba(247, 243, 242, 1);
+    border-radius: 8px;     
+}
+
+#audio{
+    border-radius: 15px;
+}
+
+#audio1{
+    border-radius: 15px;
+    width: 50px;
+    height: 30px;
+}
